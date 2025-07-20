@@ -1,0 +1,232 @@
+/* Set Raleway as default font */
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  background: #fff;
+}
+
+/* Inter font for specific numbers */
+.inter-font {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Simple reset for anchor tags */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reusable button styles */
+.btn {
+  background-color: #4f46e5;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: #3730a3;
+  transform: scale(1.05);
+}
+
+/* Navbar styles */
+.navbar {
+  background: url('https://via.placeholder.com/1200x200') no-repeat center/cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: #fff;
+}
+.navbar .logo {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+/* Banner styles */
+.banner {
+  background: url('https://via.placeholder.com/1200x400') no-repeat center/cover;
+  text-align: center;
+  padding: 100px 20px;
+  color: #fff;
+}
+.banner h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* Action section */
+.action {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+  gap: 40px;
+}
+.action-text {
+  flex: 1;
+}
+.action-text h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.action-text p {
+  margin-bottom: 20px;
+}
+.action-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Productive Users section */
+.users {
+  background-color: #f4f4ff;
+  text-align: center;
+  padding: 60px 20px;
+}
+.users h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.stat {
+  text-align: center;
+}
+.stat .number {
+  font-size: 32px;
+  color: #4f46e5;
+  display: block;
+  font-weight: bold;
+}
+.stat .label {
+  color: #555;
+}
+
+/* Feedback section */
+.feedback {
+  text-align: center;
+  padding: 60px 20px;
+}
+.feedback h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.feedback-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  background: #fff;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  text-align: left;
+}
+.card .stars {
+  color: gold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.card h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.reviewer img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.reviewer .name {
+  font-weight: bold;
+}
+.reviewer .date {
+  font-size: 12px;
+  color: #888;
+}
+
+/* Contact section */
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+  gap: 40px;
+}
+.contact-text {
+  flex: 1;
+}
+.contact-text h2 {
+  font-size: 28px;
+}
+.contact-form {
+  flex: 1;
+}
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: 'Raleway', sans-serif;
+}
+.contact-form textarea {
+  height: 100px;
+}
+
+/* Footer styles */
+.footer {
+  background: #f4f4ff;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 40px;
+}
+.footer .logo {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+.footer p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  font-size: 14px;
+  color: #555;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.footer-links a {
+  color: #4f46e5;
+  font-weight: bold;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
